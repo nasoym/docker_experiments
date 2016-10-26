@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [[ "$REQUEST_METHOD" = "POST" ]];then
+  echo "triggered at: $(date)" >> /var/log/trigger.log
+  echo "trigger"
+else
+  echo "nop"
+fi
+
+
