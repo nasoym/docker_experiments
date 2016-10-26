@@ -1,1 +1,1 @@
-* * * * * /script.sh >> /var/log/script.log
+* * * * * echo "run by cron at: $(date)." >> /var/log/script.log
